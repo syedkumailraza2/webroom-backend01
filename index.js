@@ -2,7 +2,7 @@ import express, { json } from "express"
 import cors from 'cors'
 import connectDB from "./config/db.js"
 import dotenv from "dotenv";
-import router from "./routes/studymaterial.route.js";
+import router from "./routes/studymaterial.routes.js";
 import projectRoutes from "./routes/project.routes.js"
 import path from "./routes/student.routes.js"
 import eventRoutes from "./routes/event.routes.js";
